@@ -9,9 +9,6 @@ namespace MathGame.MichaelKarcz
 
             var difficulty = Helpers.SelectDifficulty();
 
-            var random = new Random();
-
-
             int firstNumber;
             int secondNumber;
 
@@ -57,9 +54,6 @@ namespace MathGame.MichaelKarcz
         {
             var difficulty = Helpers.SelectDifficulty();
 
-            var random = new Random();
-
-
             int firstNumber;
             int secondNumber;
 
@@ -104,9 +98,6 @@ namespace MathGame.MichaelKarcz
         internal void MultiplicationGame(string message)
         {
             var difficulty = Helpers.SelectDifficulty();
-
-            var random = new Random();
-
 
             int firstNumber;
             int secondNumber;
